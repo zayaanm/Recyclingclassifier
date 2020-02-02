@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 10vh;
+    text-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#label {
+    text-align: center;
+}
+
+
+/*#video {
+    position: relative;
+    right: 0%;
+    width: 100vw;
+    height: 30vh;
+    display: inline-block
+} */
+
+/*#photo {
+    position: fixed;
+    bottom: 0;
+    right: 2;
+    width: 300px;
+} */
+
+  #canvas {
+    display:none;
+  }
+  
+  #camera {
+    width: 200px;
+    display:inline-block;
+  }
+
+/*#startbutton {
+    position: relative;
+    left: 100%;
+}
+
+#mybutton {
+    position: relative;
+    right: 0%;
+} */
+
+body{
+
+    background: #5444c4;
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+
+    color:black;
+    width: 90%;
+    height: 76vh;
+    margin: 15px auto;
+    background: white;
+    overflow:hidden;
+    position: relative;
+    top: 0;
+    -webkit-box-shadow: 0 19px 38px  rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+    box-shadow: 0 19px 38px  rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    overflow-y:scroll;
+}
+
+.btn{
+
+    padding: 15px;
+    border: .1vh solid transparent;
+    background-color: #5444c4;
+    margin-bottom:3vh;
+    width: 150px;
+    height: 8%;
+    border-radius: .4vh;
+    transition: 1s;
+    animation: slideright;
+    animation-duration: 1s;
+    -webkit-box-shadow: 0 19px 38px  rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+    box-shadow: 0 19px 38px  rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.btn p{
+
+    color:white;
+    margin: 0 auto;
+    font-size: 1.2vh;
+}
