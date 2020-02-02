@@ -51,7 +51,7 @@ h1 {
 
 body{
 
-    background: #5444c4;
+    background-image: linear-gradient(to right, #11998e , #38ef7d);
     color: #FFF;
     margin: 0;
     text-align: center;
@@ -76,10 +76,9 @@ body{
 }
 
 .btn{
-
     padding: 15px;
     border: .1vh solid transparent;
-    background-color: #5444c4;
+    background-color: #2E7544;
     margin-bottom:3vh;
     width: 150px;
     height: 8%;
@@ -88,7 +87,6 @@ body{
     animation: slideright;
     animation-duration: 1s;
     -webkit-box-shadow: 0 19px 38px  rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-
     box-shadow: 0 19px 38px  rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
@@ -96,5 +94,9 @@ body{
 
     color:white;
     margin: 0 auto;
-    font-size: 1.2vh;
+    font-size: 1.5vh;
 }
+
+#grad {
+    background-image: linear-gradient(to right, red , yellow);
+  }
